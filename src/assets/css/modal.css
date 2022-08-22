@@ -1,0 +1,160 @@
+.modal-container .el-header{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-form-item {
+  margin-bottom: 0 !important;
+}
+
+.modal-form-item .el-form-item__label {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.modal-form-item .el-form-item__content {
+  line-height: 20px;
+}
+
+.modal-form-item .address-list li{
+  margin-bottom: 5px;
+}
+
+.modal-form-item .address-list li .el-input {
+  min-width: 300px;
+  width: auto;
+}
+
+.modal-container .date-insert {
+  font-size: 12px;
+  color: var(--bs-gray);
+}
+
+.modal-container .el-footer {
+  background: #fff;
+  position: sticky;
+  bottom: 0;
+  padding-top: 20px;
+  border-top: 1px solid gainsboro;
+}
+
+.modal-container .el-footer button {
+  margin-right: 20px;
+}
+
+.modal-container .statuses-container {
+  display: flex;
+}
+
+.modal-container .status-wrapper {
+  margin-right: 20px;
+}
+
+.social-statuses-wrapper {
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+
+.social-status-save-btn {
+  width: 100%;
+  height: 50px;
+}
+
+@media (max-width: 1000px) {
+  .social-statuses-dialog-wrapper .el-dialog {
+    width: 80%;
+  }
+}
+/*
+.field-label {
+  font-weight: bold;
+  padding: 2px 5px;
+  border-right: 2px solid var(--bs-gray);
+}
+
+.field-value {
+  padding: 2px 5px;
+}
+*/
+
+/*
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.1s ease;
+}
+
+.modal-header {
+  display: block;
+}
+
+.modal-wrapper {
+  max-height: 100%;
+}
+
+.modal-container {
+  color: black;
+  width: 1000px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.1s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+  .modal-header {
+    padding: 0;
+  }
+
+  .modal-container {
+    width: 100%;
+  }
+
+  .modal-footer {
+    padding: 0;
+  }
+
+  .modal-body {
+    height: calc(100vh - 300px);
+    max-height: 100vh;
+  }
+}*/

@@ -1,0 +1,82 @@
+[
+    {
+        "code": "01",
+        "name": "Nur-Sultan"
+    },
+    {
+        "code": "02",
+        "name": "Almaty"
+    },
+    {
+        "code": "17",
+        "name": "Shymkent"
+    },
+    {
+        "code": "03",
+        "name": "Akmola Region"
+    },
+    {
+        "code": "04",
+        "name": "Aktobe Region"
+    },
+    {
+        "code": "05",
+        "name": "Almaty Region"
+    },
+    {
+        "code": "06",
+        "name": "Atyrau Region"
+    },
+    {
+        "code": "07",
+        "name": "West Kazakhstan Region"
+    },
+    {
+        "code": "08",
+        "name": "Jambyl Region"
+    },
+    {
+        "code": "09",
+        "name": "Karagandy Region"
+    },
+    {
+        "code": "10",
+        "name": "Kostanay Region"
+    },
+    {
+        "code": "11",
+        "name": "Kyzylorda Region"
+    },
+    {
+        "code": "12",
+        "name": "Mangystau Region"
+    },
+    {
+        "code": "13",
+        "name": "Turkistan Region"
+    },
+    {
+        "code": "14",
+        "name": "Pavlodar Region"
+    },
+    {
+        "code": "15",
+        "name": "North Kazakhstan Region"
+    },
+    {
+        "code": "16",
+        "name": "East Kazakhstan Region"
+    },
+    {
+        "code": "20",
+        "name": "Ulytau region"
+    },
+    {
+        "code": "18",
+        "name": "Abay region"
+    },
+    {
+        "code": "19",
+        "name": "Zhetysu region"
+    }
+]

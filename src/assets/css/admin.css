@@ -1,0 +1,172 @@
+.application-detail {
+    background: var(--bs-white);
+    height: 100%;
+    min-height: 100vh;
+}
+
+.trash-btn {
+    margin-left: 10px;
+}
+
+.copy-link-btn {
+    margin-left: 10px;
+}
+
+.sort-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.sort-btn__icon {
+    margin-left: auto;
+}
+
+.admin-filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.admin-filter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.admin-filter__item {
+    width: fit-content;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-filter__item ul.dropdown-menu.social_status {
+    width: 520px;
+    max-height: 20vh;
+    overflow-y: scroll;
+}
+
+.admin-filter__item .btn {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.admin-filter__item .dropdown-menu {
+    width: fit-content;
+}
+
+.admin-filter__item .dropdown-menu li {
+    list-style-type: disc;
+    margin-left: 25px;
+    padding: 0.25rem 0.1rem 0;
+}
+
+.admin-filter__item .dropdown-menu li a {
+    padding: 0.1rem;
+}
+
+.admin-filter__reset {
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+.admin-print {
+    color: #fff;
+    width: fit-content;
+    height: 40px;
+    margin-bottom: 10px !important;
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+}
+
+.admin-action {
+    display: flex;
+}
+
+.admin-table .cell{
+    word-break: break-word !important;
+}
+
+.admin-table-wrapper .el-table .el-table__cell {
+    padding: 5px 0;
+}
+
+.admin-table-wrapper .el-table .el-table__cell.social-status-cell .cell {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.admin-table-wrapper .el-table .el-table__cell.address-cell .cell {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+.admin-table-header {
+    margin-top: 25px;
+}
+
+.admin-table-header .el-divider {
+    margin: 10px 0;
+}
+
+.toggle-filter {
+    min-width: 150px;
+    width: fit-content;
+    height: 40px;
+}
+
+.admin-filter__item .el-date-editor,
+.admin-filter__item .el-date-editor .el-range-input,
+.admin-filter__item .el-date-editor .el-range-input::placeholder {
+    background: var(--bs-secondary);
+    color: white;
+}
+
+.admin-filter__item .el-range-separator {
+    color: white !important;
+}
+
+.admin-filter__item .el-date-editor .el-range__icon {
+    color: white;
+}
+
+.admin-filter__item-clear {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.admin-filter__item-toggle {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.rejection-radios .el-form-item__label{
+    float: none;
+}
+
+.rejection-radios .el-radio-group {
+    display: flex !important;
+    flex-direction: column
+}
+
+.rejection-radios .el-radio-group .other-reason .el-radio__label{
+    display: flex;
+    margin-top: -15px;
+    margin-left: 13px;
+}
+
+.rejection-radios .el-radio-group .other-reason .el-textarea {
+    width: auto;
+}
+
+@media (max-width: 1050px) {
+    .admin-filter__item {
+        width: 135px;
+        margin-right: 0;
+    }
+}
